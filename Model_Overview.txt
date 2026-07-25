@@ -1,0 +1,71 @@
+# Customer Purchase Prediction using K-Nearest Neighbors (KNN)
+
+## Project Overview
+
+This project predicts whether a customer is likely to purchase a product based on customer information such as Gender, Age, and Salary using the K-Nearest Neighbors (KNN) classification algorithm.
+
+## Problem Statement
+
+The objective is to help businesses identify potential customers who are likely to purchase a product, enabling more effective marketing strategies.
+
+## Dataset
+
+Features:
+- Gender
+- Age
+- Salary
+
+Target:
+- Purchased (Yes/No)
+
+## Tools & Libraries
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+
+## Machine Learning Workflow
+
+- Data Collection
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Selection
+- Label Encoding
+- Train-Test Split
+- Feature Scaling
+- KNN Model Building
+- Hyperparameter Tuning
+- Model Evaluation
+
+## Model Performance
+
+- Accuracy: 89.5%
+- Best K Value: 14
+
+## Evaluation Metrics
+
+- Accuracy
+- Confusion Matrix
+- Classification Report
+
+## Project Structure
+
+Customer-Purchase-Prediction-KNN/
+
+├── Customer_Purchase.csv
+
+├── Customer_Purchase_Prediction.ipynb
+
+├── README.md
+
+├── requirements.txt
+
+└── images/
+
+## Future Improvements
+
+- Use GridSearchCV for hyperparameter tuning
+- Compare KNN with Logistic Regression
+- Compare with Decision Tree and Random Forest
